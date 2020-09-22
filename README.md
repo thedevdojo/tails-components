@@ -4,7 +4,7 @@
 
 [Tails](https://devdojo.com/tails) is a (no-config) copy'n paste library of hand-crafted templates and components built in [TailwindCSS](https://tailwindcss.com). 
 
-## Links And Preview
+## Links
 
 - [TailwindCSS Components](https://devdojo.com/tailwindcss/components)
 - [TailwindCSS Playground](https://devdojo.com/tailwindcss/playground)
