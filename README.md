@@ -14,5 +14,5 @@ It's pretty simple to use any of these components or templates in your project. 
 
 ## Contributing
 
-If you would like to contribute to this project you can visit the [Playground](https://devdojo.com/tailwindcss/playground) and create your TailwindCSS component. After creating your component in the playground you'll want to clone the repo on your machine, add that component to a new `.html` file, and submt a Pull Request. (this process will be refined in a couple days).
+If you are contributing, please read the [contributing file](CONTRIBUTING.md) before submitting your pull requests.
 
