@@ -30,3 +30,13 @@ Issue template types include the following:
  - Bug Reporting
  - Feature Requests
  - Help Requests
+
+## Naming Conventions
+
+### Components
+
+When naming your component file, it's best to stick which a descriptive name. Such as for a component with featured content containing a large image, we named the file `feature-content-image.html`.
+
+### Templates
+
+TBD.
