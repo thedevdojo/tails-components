@@ -13,7 +13,7 @@ To request us to review code that you create, you will need to create a pull req
 
 ### [`components`](./components)
 
-All the Tailwindcss Components for the project are stored in `.html` files located within the [`components`](./components) directory.
+All the TailwindCSS Components for the project are stored in `.html` files located within the [`components`](./components) directory.
 
 ## Issue Creation
 
