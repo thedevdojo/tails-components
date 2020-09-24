@@ -15,6 +15,10 @@ To request us to review code that you create, you will need to create a pull req
 
 All the TailwindCSS Components for the project are stored in `.html` files located within the [`components`](./components) directory.
 
+### [`templates`](./templates)
+
+All the TaildwindCSS Templates for the project are stored in `.html` files located within the [`templates`](./templates) directory.
+
 ## Issue Creation
 
 In the event that you have a issue using the tool or have a suggest for a change but don't want to contribute code,
