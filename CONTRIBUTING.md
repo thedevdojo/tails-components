@@ -1,5 +1,39 @@
 # Contributing
 
+Howdy 👋, fellow developer. In this document you'll learn how to contribute to this project 🤓
+
+**Create a Component** - Visit the [Playground](https://devdojo.com/tailwindcss/playground) to create your TailwindCSS component.
+
+![Create Component GIF](https://cdn.devdojo.com/tails/images/1-create-component-min.gif)
+
+**Fork This Repo**
+
+![Fork Repo GIF](http://cdn.devdojo.com/tails/images/2-fork-repo-min.gif)
+
+**Download your Forked Repo**
+
+![Clone Repo GIF](http://cdn.devdojo.com/tails/images/3-clone-min.gif)
+
+**Add your Component**
+
+![New Component GIF](http://cdn.devdojo.com/tails/images/4-new-component-min.gif)
+
+**Push your Changes**
+
+![Push GIF](http://cdn.devdojo.com/tails/images/5-push.gif)
+
+**Create your Pull Request**
+
+
+and then,
+
+![Push GIF](http://cdn.devdojo.com/tails/images/boom.gif)
+
+You just submitted your PR 🤘
+
+
+# More Details
+
 ## Pull Requests
 
 ### Creating a Pull Request
