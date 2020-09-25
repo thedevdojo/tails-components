@@ -13,7 +13,11 @@ To request us to review code that you create, you will need to create a pull req
 
 ### [`components`](./components)
 
-All the Tailwindcss Components for the project are stored in `.html` files located within the [`components`](./components) directory.
+All the TailwindCSS Components for the project are stored in `.html` files located within the [`components`](./components) directory.
+
+### [`templates`](./templates)
+
+All the TaildwindCSS Templates for the project are stored in `.html` files located within the [`templates`](./templates) directory.
 
 ## Issue Creation
 
@@ -26,3 +30,13 @@ Issue template types include the following:
  - Bug Reporting
  - Feature Requests
  - Help Requests
+
+## Naming Conventions
+
+### Components
+
+When naming your component file, it's best to stick which a descriptive name. Such as for a component with featured content containing a large image, we named the file `feature-content-image.html`.
+
+### Templates
+
+TBD.
