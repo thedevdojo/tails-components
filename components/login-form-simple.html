@@ -1,0 +1,41 @@
+<div class="flex justify-center items-center h-screen bg-gray-200 sm:px-6">
+    <div class="p-4 sm:p-6 max-w-sm w-full bg-white shadow-md rounded-md">
+        <div class="flex justify-center items-center">
+            <span class="text-gray-700 text-2xl">Login</span>
+        </div>
+
+        <form class="mt-4">
+            <label for="email" class="block">
+                <span class="text-gray-700 text-sm">Email</span>
+                <input type="email" id="email" name="email" autocomplete="username" class="py-2 px-3 text-gray-700 form-input mt-1 block w-full border rounded-md focus:border-indigo-600" required autofocus
+                />
+            </label>
+
+            <label for="password" class="block mt-3">
+                <span class="text-gray-700 text-sm">Password</span>
+                <input type="password" id="password" name="password" autocomplete="current-password" class="py-2 px-3 text-gray-700 form-input mt-1 block w-full border rounded-md focus:border-indigo-600" required
+                />
+            </label>
+
+            <div class="flex justify-between items-center mt-4">
+                <div>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox text-indigo-600 border"/>
+                        <span class="mx-2 text-gray-600 text-sm">Remember me</span>
+                    </label>
+                </div>
+
+                <div>
+                    <a class="block text-sm fontme text-indigo-700 hover:underline" href="#">Forgot your password?</a>
+                </div>
+            </div>
+
+            <div class="mt-6">
+                <button type="submit"
+                        class="py-2 px-4 text-center bg-indigo-600 rounded-md w-full text-white text-sm hover:bg-indigo-500">
+                    Sign in
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
