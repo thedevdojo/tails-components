@@ -1,0 +1,115 @@
+<!--@contributed by @pranav2012-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsletter Component</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .body,html{
+            background-color: rgb(228, 224, 224);
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            background: rgb(255, 255, 255);
+        }
+        .main-box{
+            background: #5045cd;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            width: 60%;
+            height: 28%;
+            border-radius: 12px;
+        }
+        .text-box{
+            display: flex;
+            padding: 10px;
+            flex-direction: column;
+        }
+        .send-box{
+            display: flex;
+            padding: 10px;
+        }
+        .inp{
+            margin: 0 8px;
+            border: none;
+            width: 70%;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .btn{
+            background: #6875f5;
+            border:none;
+            border-radius: 7px;
+            color: #e8eafd;
+            font-size: 0.8rem;
+            width: 30vh;
+            height: 6vh;
+            font-weight: 600;
+        }
+        .text-box h3{
+            color:white;
+            font-weight: 800;
+            font-size: 1.6rem;
+        }
+        .text-box p{
+            color:#cddbfe;
+            font-size: 0.8rem;
+            margin-left: 8px;
+        }
+        .inp::placeholder{
+            text-align: center;
+            font-size: 0.7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="main-box">
+            <div class="text-box">
+                <h3>Want news and updates?</h3>
+                <p>SinUp for our newsletter to stay up to date.</p>
+            </div>
+            <form method="POST" action="javascript:sendmail();">
+                <div class="send-box">
+                    <input id="i" class="inp" type="email" placeholder="your email address">
+                    <button class="btn" type="submit">Notify Me</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+    sendmail = () =>{
+        let input = document.getElementById("i");
+        let senderemail = input.value;
+        console.log(senderemail);
+        const email = "";
+        const password = "";
+        Email.send({
+        Host: "smtp.gmail.com",
+        Username : email,
+        Password : password,
+        To : senderemail,
+        From : email,
+        Subject : "Thanks for Joining...",
+        Body : `Hey ${senderemail}, thanks for signing up welcome!!`,
+        }).then(
+            message => alert("mail sent successfully")
+        ).catch(err=> alert("something went wrong!!"));
+    }
+</script>
+
+</html>
