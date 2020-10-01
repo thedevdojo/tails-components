@@ -11,27 +11,27 @@ Want to watch a video instead? Click the link below to watch a quick **5 min.** 
 
 # Read 📖
 
-**Create a Component** - Visit the [Playground](https://devdojo.com/tailwindcss/playground) to create your TailwindCSS component.
+**Create a Component** 🛠️- Visit the [Playground](https://devdojo.com/tailwindcss/playground) to create your TailwindCSS component.
 
 ![Create Component GIF](https://cdn.devdojo.com/tails/images/1-create-component-min.gif)
 
-**Fork This Repo**
+**Fork This Repo** 🍴
 
 ![Fork Repo GIF](http://cdn.devdojo.com/tails/images/2-fork-repo-min.gif)
 
-**Download your Forked Repo**
+**Download your Forked Repo** 🔻
 
 ![Clone Repo GIF](http://cdn.devdojo.com/tails/images/3-clone-min.gif)
 
-**Add your Component**
+**Add your Component** ➕
 
 ![New Component GIF](http://cdn.devdojo.com/tails/images/4-new-component-min.gif)
 
-**Push your Changes**
+**Push your Changes** 👊
 
 ![Push GIF](http://cdn.devdojo.com/tails/images/5-push.gif)
 
-**Create your Pull Request**
+**Create your Pull Request**  🤏
 
 ![Create PR GIF](http://cdn.devdojo.com/tails/images/6-open-pr-min.gif)
 
@@ -39,7 +39,7 @@ and then,
 
 ![Push GIF](http://cdn.devdojo.com/tails/images/boom.gif)
 
-You just submitted your PR 🤘
+Congratulations,🎉 you just submitted your PR 🤙
 
 
 # More Details 📖
