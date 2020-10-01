@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Animation Text</title>
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            background-color: whitesmoke;
+
+        }
+
+        .new-line {
+            border: 2px dotted teal;
+        }
+
+        .manual {
+            color: black;
+            text-align: center;
+        }
+
+        .wrapper span:before {
+            content: "";
+            animation: text-wrap infinite 5s;
+        }
+
+        @keyframes text-wrap {
+            0% {
+                content: "Blogger_";
+            }
+
+            16% {
+                content: "Pentester_";
+            }
+
+            32% {
+                content: "Developer_";
+            }
+
+            48% {
+                content: "Designer_";
+            }
+
+            64% {
+                content: "Linux Administrator_";
+            }
+
+            80% {
+                content: "Entrepreneur_";
+            }
+
+            100% {
+                content: "Freelancer_";
+            }
+        }
+
+        .height {
+            height: 35px;
+        }
+
+        .contact-header {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <br>
+    <div class="wrapper">
+        <h1 class="text-center my-3 manual">Hello! I'm Bhawesh</h1>
+        <hr class="new-line" width='40%'>
+        <h2 class="manual">A <span class="manual"></span> </h2>
+    </div>
+    <br>
+</body>
+
+</html>
