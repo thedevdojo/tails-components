@@ -1,4 +1,4 @@
-# Contributing
+# Contributing 🙌
 
 Howdy 👋, fellow developer. In this document you'll learn how to contribute to this project 🤓. There are 3 ways you can learn how to contribute to this repo. You can **watch** a quick video or **read** the steps.
 
@@ -42,18 +42,18 @@ and then,
 You just submitted your PR 🤘
 
 
-# More Details
+# More Details 📖
 
-## Pull Requests
+## Pull Requests 🤏
 
-### Creating a Pull Request
+### Creating a Pull Request 👨‍💻
 
 If you would like to contribute to this project you can visit the [Playground](https://devdojo.com/tailwindcss/playground) and create your TailwindCSS component. After creating your component in the playground you'll want to clone the repo on your machine, add that component to a new `.html` file, and submt a Pull Request. (this process will be refined in a couple days).
 
 To request us to review code that you create, you will need to create a pull request as described in
  [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
 
-### File Location/Types
+### File Location/Types 📁
 
 ### [`components`](./components)
 
@@ -63,7 +63,7 @@ All the TailwindCSS Components for the project are stored in `.html` files locat
 
 All the TaildwindCSS Templates for the project are stored in `.html` files located within the [`templates`](./templates) directory.
 
-## Issue Creation
+## Issue Creation 🤨
 
 In the event that you have a issue using the tool or have a suggest for a change but don't want to contribute code,
  we are more than happy to help.
@@ -75,9 +75,9 @@ Issue template types include the following:
  - Feature Requests
  - Help Requests
 
-## Naming Conventions
+## Naming Conventions 📋
 
-### Components
+### Components 🔧
 
 When naming your component file, it's best to stick which a descriptive name. Such as for a component with featured content containing a large image, we named the file `feature-content-image.html`.
 
