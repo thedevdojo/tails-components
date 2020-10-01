@@ -48,7 +48,7 @@ You just submitted your PR 🤘
 
 ### Creating a Pull Request
 
-If you would like to contribute to this project you can visit the [Playground](https://devdojo.com/tailwindcss/playground) and create your TailwindCSS component. After creating your component in the playground you'll want to clone the repo on your machine, add that component to a new `.html` file, and submt a Pull Request. (this process will be refined in a couple days).
+If you would like to contribute to this project you can visit the [Playground](https://devdojo.com/tailwindcss/playground) and create your TailwindCSS component. After creating your component in the playground you'll want to clone the repo on your machine, add that component to a new `.html` file, and submit a Pull Request. (this process will be refined in a couple days).
 
 To request us to review code that you create, you will need to create a pull request as described in
  [this tutorial](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github).
