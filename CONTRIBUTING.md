@@ -1,3 +1,5 @@
+Contributing you poll request 
+
 # Contributing
 
 Howdy 👋, fellow developer. In this document you'll learn how to contribute to this project 🤓. There are 3 ways you can learn how to contribute to this repo. You can **watch** a quick video or **read** the steps.
