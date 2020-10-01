@@ -39,10 +39,10 @@ and then,
 
 ![Push GIF](http://cdn.devdojo.com/tails/images/boom.gif)
 
-You just submitted your PR 🤘
+You just submitted your PR :octocat:
 
 
-# More Details
+# More Details 📝
 
 ## Pull Requests
 
@@ -83,4 +83,4 @@ When naming your component file, it's best to stick which a descriptive name. Su
 
 ### Templates
 
-TBD.
+TBD(To Be Determined).
