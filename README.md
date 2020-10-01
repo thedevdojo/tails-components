@@ -14,9 +14,9 @@
 
 It's pretty simple to use any of these components or templates in your project. Any component you wish to use can be copied and pasted into your own project. Visit the [Components](https://devdojo.com/tailwindcss/components) page to view the components and view the source code. Additionally, you can view the [Templates](https://devdojo.com/tailwindcss/templates) and simply copy and paste these templates into your own project.
 
-## 🤲 Contributing
+## 🤲 Contributing 💻
 
-Watch 🍿 the quick 5 minute video below where you'll learn how to add a component to this repo.
+Watch 🍿 this quick 5 minute video below where you'll be learning how to add a component to this repo.
 
 <a href="https://devdojo.com/episode/hacktoberfest-2020" target="_blank"><img src="https://cdn.devdojo.com/tails/images/hacktoberfest-png.png" width="640"></a>
 
