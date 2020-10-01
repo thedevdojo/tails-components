@@ -1,0 +1,24 @@
+<div class="flex flex-col items-center justify-center min-h-screen pt-4 bg-gray-300 min-w-screen relative" x-data="{ open: true }">
+
+    <button class="flex items-center px-3 py-2 space-x-2 text-sm leading-none bg-gray-200 border border-gray-400 rounded-sm rounded-md hover:bg-gray-300 focus:outline-none focus:bg-gray-300" @click="open = true">Show Modal</button>
+
+    <div x-show="open" class="absolute max-w-sm my-3 overflow-x-auto bg-white rounded-lg shadow-lg" @click.away="open = false">
+        <div class="flex px-5 py-4 border-b border-gray-200">
+            <div class="flex items-center justify-center w-6">
+                <svg class="w-6 h-6 text-red-500 fill-current" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 3.36667C10.8167 3.36667 3.3667 10.8167 3.3667 20C3.3667 29.1833 10.8167 36.6333 20 36.6333C29.1834 36.6333 36.6334 29.1833 36.6334 20C36.6334 10.8167 29.1834 3.36667 20 3.36667ZM19.1334 33.3333V22.9H13.3334L21.6667 6.66667V17.1H27.25L19.1334 33.3333Z" />
+                </svg>
+            </div>
+            <span class="ml-2 text-lg font-bold text-gray-700">Error modal</span>
+        </div>
+
+        <div class="px-10 py-5 text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </div>
+
+        <div class="flex justify-end px-5 py-4 bg-gray-100 border-t border-gray-300">
+            <button class="bg-gray-100 rounded text-sm py-2 px-3 text-sm text-gray-600 transition duration-150 hover:text-gray-700" @click="open = false">Ok</button>
+        </div>
+    </div>
+
+</div>
