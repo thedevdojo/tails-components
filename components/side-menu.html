@@ -1,0 +1,80 @@
+<div class="lg:flex lg:justify-between" x-data="{ toggle: 'home' }">
+    <div class="lg:w-32 mt-10 lg:ml-8 ml-4">
+        <ul>
+            <a href="#">
+                <li @click="toggle = 'home'" :class="{ 'bg-gray-400 hover:bg-gray-400': toggle === 'home' }"
+                    class="bg-gray-200 hover:bg-gray-300 rounded-full text-center text-lg inline-block leading-none px-6 py-3 font-bold text-gray-900 lg:mt-0 mb-3">
+                    Home
+                </li>
+            </a>
+            <a href="#">
+                <li @click="toggle = 'about'" :class="{ 'bg-gray-400 hover:bg-gray-400': toggle === 'about' }"
+                    class="bg-gray-200 hover:bg-gray-300 rounded-full text-center text-lg inline-block leading-none px-6 py-3 font-bold text-gray-900 lg:mt-0 mb-3">
+                    About
+                </li>
+            </a>
+            <a href="#">
+                <li @click="toggle = 'profile'" :class="{ 'bg-gray-400 hover:bg-gray-400': toggle === 'profile' }"
+                    class="bg-gray-200 hover:bg-gray-300 rounded-full text-center text-lg inline-block leading-none px-6 py-3 font-bold text-gray-900 lg:mt-0 mb-3">
+                    Profile
+                </li>
+            </a>
+            <a href="#">
+                <li
+                    class="bg-gray-200 hover:bg-gray-300 rounded-full text-center text-lg inline-block leading-none px-6 py-3 font-bold text-gray-900 lg:mt-0 mb-3">
+                    Logout
+                </li>
+            </a>
+        </ul>
+    </div>
+    <div class="lg:flex-1 lg:overflow-y-scroll max-w-full h-screen lg:ml-16 pr-4 py-10 ml-4">
+        <div x-show="toggle === 'home'">
+            <img src="https://images.unsplash.com/photo-1572021335469-31706a17aaef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&w=1050&q=80&h=350&fit=crop"
+                class="rounded">
+            <h1 class="text-4xl font-bold mt-3">Home</h1>
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi exercitationem
+                architecto aliquid. Repellat, maxime. Ex beatae recusandae dolorem! Rerum beatae hic mollitia,
+                quod dignissimos perspiciatis expedita eveniet accusantium maiores.Recusandae commodi exercitationem
+                architecto aliquid. Repellat, maxime. Ex beatae recusandae dolorem! Rerum beatae hic mollitia,
+                quod dignissimos perspiciatis expedita eveniet accusantium maiores.
+            </div>
+        </div>
+        <div x-show="toggle === 'about'">
+            <img src="https://images.unsplash.com/photo-1590650153855-d9e808231d41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80&h=350"
+                class="rounded">
+            <h1 class="text-4xl font-bold mt-3">About</h1>
+            <div>
+                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error autem quisquam officia
+                    sequialias! Beatae dolores explicabo rerum excepturi iure delectus incidunt quidem sequi? Nihil
+                    vel dignissimos, laudantium non praesentium perspiciatis sequi sint quasi recusandae! Nulla
+                    totam consectetur aliquam quasi iure blanditiis sint cupiditate, accusamus et velit quisquam
+                    natus quae, eos iusto. Odit earum eos doloremque incidunt reprehenderit provident,
+                    asperiores aut voluptatem, quod obcaecati quisquam corrupti? Ea mollitia odit corrupti
+                    libero hic neque maiores, tempore consequatur, laboriosam quas saepe qui.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem blanditiis architecto quo,
+                    facere amet alias! Soluta, architecto eveniet? Nam dolore quisquam quaerat beatae ad ipsam
+                    suscipit cum inventore error eum, modi ducimus explicabo accusamus molestiae? Numquam ab
+                    illo repellat dolorum ad nemo. Omnis, dignissimos quod!</p>
+            </div>
+        </div>
+        <div x-show="toggle === 'profile'">
+            <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80&height=350"
+                class="rounded">
+            <h1 class="text-4xl font-bold mt-3">Profile</h1>
+            <div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae commodi exercitationem
+                    architecto aliquid. Repellat, maxime. Ex beatae recusandae dolorem! Rerum beatae hic
+                    mollitia,
+                    quod dignissimos perspiciatis expedita eveniet accusantium maiores.
+                </p>
+                <h3 class="text-xl font-bold mt-4">Explore</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam fuga excepturi numquam
+                    consequatur, est perspiciatis. Aspernatur iste doloribus ea corporis et excepturi cupiditate
+                    sit, perspiciatis, possimus quidem cumque iusto. Tempora facilis totam, ullam nam dolorum
+                    quae quisquam culpa veniam unde.</p>
+            </div>
+        </div>
+    </div>
+</div>
