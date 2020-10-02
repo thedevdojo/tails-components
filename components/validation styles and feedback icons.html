@@ -1,0 +1,44 @@
+<!--Validation styles and feedback icons to provide visual feedback
+to user depending on the data they enter in forms,etc.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>My Example</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="container-fluid">
+		
+<div class="form-group has-success has-feedback">
+  <label class="control-label" for="username">Username</label>
+  <input type="text" class="form-control" id="username" aria-describedby="usernameStatus">
+  <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+  <span id="usernameStatus" class="help-block">Username is available!</span>
+</div>
+<div class="form-group has-warning has-feedback">
+  <label class="control-label" for="password">Password</label>
+  <input type="password" class="form-control" id="password" aria-describedby="passwordStatus">
+  <span class="glyphicon glyphicon-warning-sign form-control-feedback" aria-hidden="true"></span>
+  <span id="passwordStatus" class="help-block">Weak password</span>
+</div>
+<div class="form-group has-error has-feedback">
+  <label class="control-label" for="phone">Phone Number</label>
+  <input type="tel" class="form-control" id="phone" aria-describedby="phoneStatus">
+  <span class="glyphicon glyphicon-remove form-control-feedback" aria-hidden="true"></span>
+  <span id="phoneStatus" class="help-block">Please enter a valid phone number</span>
+</div>
+
+</div>
+		
+<!-- jQuery library -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> 
+</body>
+</html>
