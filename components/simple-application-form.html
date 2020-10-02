@@ -8,72 +8,99 @@
         </p>
     </div>
     <div>
-        <dl>
-            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm leading-5 font-medium text-gray-500">
-                    Full name
-                </dt>
-                <div class="pb-3">
-                    <input class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                        type="text" placeholder="Name" name="name" value="" />
+        <form class="w-full" onsubmit="return false">
+            <dl>
+                <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        Full name
+                    </dt>
+                    <div class="pb-3">
+                        <input
+                            class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="text" placeholder="Name" name="name" value="" />
+                    </div>
                 </div>
-            </div>
-            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm leading-5 font-medium text-gray-500">
-                    Application for
-                </dt>
-                <div class="pb-3">
-                    <input class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                        type="text" placeholder="Job Title" name="job description" value="" />
+                <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        Application for
+                    </dt>
+                    <div class="pb-3">
+                        <input
+                            class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="text" placeholder="Job Title" name="job description" value="" />
+                    </div>
                 </div>
-            </div>
-            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm leading-5 font-medium text-gray-500">
-                    Email address
-                </dt>
-                <div class="pb-3">
-                    <input class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                        type="text" placeholder="Email" name="email" value="" />
+                <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        Email address
+                    </dt>
+                    <div class="pb-3">
+                        <input
+                            class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="text" placeholder="Email" name="email" value="" />
+                    </div>
                 </div>
-            </div>
-            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm leading-5 font-medium text-gray-500">
-                    Phone Number
-                </dt>
-                <div class="pb-3">
-                    <input class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                        type="text" placeholder="Number" name="phonenumber" value="" />
+                <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        Phone Number
+                    </dt>
+                    <div class="pb-3">
+                        <input
+                            class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="text" placeholder="Number" name="phonenumber" value="" />
+                    </div>
                 </div>
-            </div>
-            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                <dt class="text-sm leading-5 font-medium text-gray-500">
-                    Current Address
-                </dt>
-                <div class="pb-3">
-                    <textarea row="2"
-                        class="w-full h-40 px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                        type="text" name="address" placeholder="Address"></textarea>
+                <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        Current Address
+                    </dt>
+                    <div class="pb-3">
+                        <textarea row="2"
+                            class="w-full h-20 px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="text" name="address" placeholder="Address"></textarea>
+                    </div>
                 </div>
-            </div>
-        </dl>
-    </div>
-    <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-            Salary expectation (in $)
-        </dt>
-        <div class="pb-3">
-            <input class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                type="number" placeholder="Expected salary" name="salary" value="" />
-        </div>
-    </div>
-    <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-        <dt class="text-sm leading-5 font-medium text-gray-500">
-            About
-        </dt>
-        <div class="pb-3">
-            <textarea row="4"
-                class="w-full h-40 px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
-                type="text" name="message" placeholder="Your message here..."></textarea>
-        </div>
+                <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        Salary expectation (in $)
+                    </dt>
+                    <div class="pb-3">
+                        <input
+                            class="w-full px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="number" placeholder="Expected salary" name="salary" value="" />
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                    <dt class="text-sm leading-5 font-medium text-gray-500">
+                        About
+                    </dt>
+                    <div class="pb-3">
+                        <textarea row="2"
+                            class="w-full h-20 px-5 py-3 border border-gray-400 rounded-lg outline-none focus:shadow-outline"
+                            type="text" name="message" placeholder="Your message here..."></textarea>
+                        <div class="pt-5 pb-5">
+                            <button
+                                class="flex px-3 py-3 text-white bg-indigo-500 rounded-md hover:bg-indigo-600 hover:text-white focus:outline-none focus:shadow-outline focus:border-indigo-300"
+                                type="submit">
+                                <svg class="self-center h-4 fill-current brz-icon-svg brz-css-mexoi brz-css-rstqv"
+                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24"
+                                    xml:space="preserve" data-type="glyph" data-name="email-83">
+                                    <g fill="currentColor">
+                                        <path data-color="color-2" fill="currentColor"
+                                            d="M23,2H1C0.4,2,0,2.4,0,3v3c0,0.4,0.2,0.7,0.5,0.9l11,6C11.7,13,11.8,13,12,13s0.3,0,0.5-0.1 l11-6C23.8,6.7,24,6.4,24,6V3C24,2.4,23.6,2,23,2z">
+                                        </path>
+                                        <path fill="currentColor"
+                                            d="M13.4,14.6C13,14.9,12.5,15,12,15s-1-0.1-1.4-0.4L0,8.9V21c0,0.6,0.4,1,1,1h22c0.6,0,1-0.4,1-1V8.9 L13.4,14.6z">
+                                        </path>
+                                    </g>
+                                </svg>
+                                <span class="self-center float-left ml-3 text-base font-medium">Submit Application</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </dl>
+        </form>
     </div>
 </div>
