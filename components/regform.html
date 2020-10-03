@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>REGISTRATION</title>
+   <link rel="stylesheet" href="gvp.css">
+</head>
+<script>
+function validateform(){  
+var name=document.myform.name.value;  
+var password=document.myform.pass.value; 
+var email=document.myform.email.value; 
+var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+var regex = /^[A-Za-z]+$/;
+var numbers = /^[0-9]+$/;
+var phn=document.myform.phone.value;
+var isValid = regex.test(name);
+  if (name==null || name=="")
+  {  
+     alert("Name can't be blank");  
+      return false;
+  }
+  else if(name.length<6)
+  {
+      alert("minimum 6 characters in name!");
+      return false;
+  }
+  else if(!isValid) {
+            alert("Only Alphabets allowed.");
+            return false;
+  }
+  else if(password.length<6){  
+      alert("Password must be at least 6 characters long.");  
+      return false;  
+  } 
+  else if( reg.test(email)==false)
+  {
+    alert("Invalid Email Address");
+                return false;
+  }
+  else if(phn.length!=10||numbers.test(phn)==false)
+  {
+      alert("Invalid phone number");
+      return false;
+  }
+ return true;
+}  
+</script>
+<body>
+ <form id="reg" name="myform" method="post" onsubmit="return validateform();">  
+  
+<label> Name: </label>         
+<input type="text" name="name" size="15"/> <br> <br>  
+<label>Password:</label>  
+<input type="Password" id="pass" name="pass">  
+<br> <br>
+<label> Email Id:</label>
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>
+<label>   
+Phone Number:  
+</label>    
+<input type="text" name="phone" size="10"/> <br> <br>      
+<label>   
+Sex :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>  
+<label id="date_of_birth">Date of Birth:<br />
+                    <select class="first" name="date_of_birth:day" tabindex="7">
+                        <option value="">
+                        <!-- -->
+                        </option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="date_of_birth:mon" tabindex="8">
+                        <option value="">
+                        <!-- -->
+                        </option>
+                        <option value="1">Jan</option>
+                        <option value="2">Feb</option>
+                        <option value="3">Mar</option>
+                        <option value="4">Apr</option>
+                        <option value="5">May</option>
+                        <option value="6">Jun</option>
+                        <option value="7">Jul</option>
+                        <option value="8">Aug</option>
+                        <option value="9">Sep</option>
+                        <option value="10">Oct</option>
+                        <option value="11">Nov</option>
+                        <option value="12">Dec</option>
+                    </select>
+                    <select name="date_of_birth:year" tabindex="9">
+                        <option value="">
+                        <!-- -->
+                        </option>
+                        <option value="1971">1971</option>
+                        <option value="1972">1972</option>
+                        <option value="1973">1973</option>
+                        <option value="1974">1974</option>
+                        <option value="1975">1975</option>
+                        <option value="1976">1976</option>
+                        <option value="1977">1977</option>
+                        <option value="1978">1978</option>
+                        <option value="1979">1979</option>
+                        <option value="1980">1980</option>
+                        <option value="1981">1981</option>
+                        <option value="1982">1982</option>
+                        <option value="1983">1983</option>
+                        <option value="1984">1984</option>
+                        <option value="1985">1985</option>
+                        <option value="1986">1986</option>
+                        <option value="1987">1987</option>
+                        <option value="1988">1988</option>
+                        <option value="1989">1989</option>
+                        <option value="1990">1990</option>
+                        <option value="1991">1991</option>
+                        <option value="1992">1992</option>
+                        <option value="1993">1993</option>
+                        <option value="1994">1994</option>
+                        <option value="1995">1995</option>
+                        <option value="1996">1996</option>
+                        <option value="1997">1997</option>
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                    </select>
+                </label>
+<br><br>
+<label>Languages Known :</label><br>
+<input type="checkbox" id="lang1" name="lang1" value="English">
+  <label for="lang1">English</label><br>
+  <input type="checkbox" id="lang2" name="lang2" value="Hindi">
+  <label for="lang2">Hindi</label><br>
+  <input type="checkbox" id="lang3" name="lang3" value="Tamil">
+  <label for="lang3">Tamil</label><br>
+  <input type="checkbox" id="lang4" name="lang4" value="Telugu">
+  <label for="lang4">Telugu</label><br><br>
+  
+<label>
+Address :
+</label>  
+<br>  
+<textarea cols="80" rows="3" value="address">  
+</textarea>  
+<br> <br>  
+<input type="submit" value="Submit"/>  
+</form>  
+</body>
+</html>
