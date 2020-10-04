@@ -1,0 +1,101 @@
+public class Graph{
+       Graph 
+            40         2
+        0--------3----------4
+        |        |          |  \
+      10|        |10       3|    \3
+        |        |          |      \
+        1--------2          5-------6
+            10                 3
+        we implement graph using adjacencylist
+        0->[0,1,10][0,3,10]
+        1->[1,0,10][1,2,10]
+        2->[2,1,10][2,3,10][2,5,10]
+        3->[3,0,40][3,2,10][3,4,2]
+        4->[4,3,2][4,5,3][4,6,3]
+        5->[5,4,3][5,6,3][5,2,10]
+        6->[6,4,3][6,5,3]
+        
+         // BFS paths uses queue to implement bfs
+            2@2
+            1@21
+            3@23
+            0@210
+            4@234
+            5@2345
+            6@2346
+         
+        public static class Edge{
+              int v1;
+              int v2;
+              int wt;
+              Edge(int v1,int v2,int wt){
+                this.v1=v1;
+                this.v2=v2;
+                this.wt=wt;
+              }
+            }
+         public static class Pair{
+            int v;
+            String psf;
+            Pair(int v,String psf){
+              this.v=v;
+              this.psf=psf;
+            }
+          }      
+          public static void BreadthFirst(ArrayList<Edge>[] graph,int src, boolean[] visited) {
+            //rm*wa*
+            ArrayDeque<Pair> q=new ArrayDeque<>();
+            q.add(new Pair(src,src+""));
+            while(q.size()>0) {
+              //remove
+              Pair rem=q.removeFirst();
+              //mark *
+              if(visited[rem.v]==true) {
+                continue;
+              }
+              visited[rem.v]=true;
+              //work
+              System.out.println(rem.v+"@"+rem.psf);
+              //add child
+              for(Edge e:graph[rem.v]) {
+                if(visited[e.v2]==false) {
+                  q.add(new Pair(e.v2,rem.psf+e.v2));
+                }
+              }
+
+            }
+        }
+        public static void main(String[] args) throws Exception {
+        //noramally take input
+        
+            int vtces=7;//0,1,2,3,4,5,6
+            //array of arraylist
+            ArrayList<Edge> [] graph=new ArrayList[vtces];
+            for(int i=0;i<vtces;i++) {
+              graph[i]=new ArrayList<>();
+            }
+                graph[0].add(new Edge(0,1,10));
+                graph[0].add(new Edge(0,3,10));
+                graph[1].add(new Edge(1,0,10));
+                graph[1].add(new Edge(1,2,10));
+                graph[2].add(new Edge(2,1,10));
+                graph[2].add(new Edge(2,3,10));
+                graph[3].add(new Edge(3,0,40));
+                graph[3].add(new Edge(3,2,10));
+                graph[3].add(new Edge(3,4,2));
+                graph[4].add(new Edge(4,3,2));
+                graph[4].add(new Edge(4,5,3));
+                graph[4].add(new Edge(4,6,3));
+                graph[5].add(new Edge(5,4,3));
+                graph[5].add(new Edge(5,6,3));
+                graph[6].add(new Edge(6,4,3));
+                graph[6].add(new Edge(6,5,3));
+                graph[2].add(new Edge(2,5,10));
+                graph[5].add(new Edge(5,2,10));
+               
+               boolean[] visited=new boolean[vtces];
+               BreadthFirst(graph,2,visited);
+              
+        }
+}
