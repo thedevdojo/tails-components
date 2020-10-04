@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+  
+<style>
+      
+    .container12 {
+        width: 80%;
+        padding: 50px 0;
+        margin: 50px auto;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .container12:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        margin-left: -1px;
+        width: 2px;
+        height: 100%;
+        background: #CCD1D9;
+        z-index: 1
+    }
+
+    .timeline-block {
+        width: -webkit-calc(50% + 8px);
+        width: -moz-calc(50% + 8px);
+        width: calc(50% + 8px);
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -moz-box;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -moz-box-pack: justify;
+        justify-content: space-between;
+        clear: both;
+    }
+
+    .timeline-block-right {
+        float: right;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        background-color: white;
+    }
+
+    .timeline-block-left {
+        float: left;
+        direction: rtl;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .marker {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        border: 2px solid #F5F7FA;
+        background: #4FC1E9;
+        margin-top: 10px;
+        z-index: 9999
+    }
+
+    .timeline-content {
+        width: 95%;
+        padding: 0 15px;
+        color: #666
+    }
+
+    .timeline-content h3 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-weight: 500
+    }
+
+    .timeline-content span {
+        font-size: 20px;
+        color: #a4a4a4;
+    }
+
+    .timeline-content p {
+        font-size: 14px;
+        line-height: 1.5em;
+        word-spacing: 1px;
+        color: #888;
+    }
+
+
+    @media screen and (max-width: 768px) {
+        .container:before {
+            left: 8px;
+            width: 2px;
+        }
+
+        .timeline-block {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .timeline-block-right {
+            float: none;
+        }
+
+        .timeline-block-left {
+            float: none;
+            direction: ltr;
+        }
+    }
+
+</style>
+<div class="main" id="section3">
+    <h2 style="padding: 2% 25%; color: #ffffff">Events</h2>
+    <div class="container12">
+
+
+        <div class="timeline-block timeline-block-left">
+            <div class="marker"></div>
+            <div class="timeline-content">
+                <h3>OCTOBER 11
+                </h3>
+                <span>10:00-01:00</span>
+                <a
+                    href="" target="_blank">
+                    <h5>Hacktoberfest</h5>
+                </a>
+            </div>
+        </div>
+
+        <div class="timeline-block timeline-block-right">
+            <div class="marker"></div>
+            <div class="timeline-content">
+                <h3>OCTOBER 12
+                </h3>
+                <span> 12:00-13:00</span>
+                <a
+                    href="" target="_blank">
+                    <h5>ML Cloud Workshop (GCloud) Day 1 </h5>
+                </a>
+            </div>
+        </div>
+        <div class="timeline-block timeline-block-left">
+            <div class="marker"></div>
+            <div class="timeline-content">
+                <h3>OCTOBER 13
+                </h3>
+                <span> 10:00-11:00</span>
+                <a href="" target="_blank">
+                    <h5> ML Cloud Workshop (GCloud) Day 2 </h5>
+                </a>
+            </div>
+        </div>
+        <div class="timeline-block timeline-block-right">
+            <div class="marker"></div>
+            <div class="timeline-content">
+                <h3>OCTOBER 14
+                </h3>
+                <span>10:00-03:00</span>
+                <a       href="" target="_blank">
+                    <h5> Hacktoberfest </h5>
+                </a>
+            </div>
+        </div>
+
+      
+
+       
+
+       
+    </div>
+</div>
+
+<center><a href="#section4"><i class="fa fa-chevron-down" style="font-size:24px"></i> </a>
+</center>
+</div>
