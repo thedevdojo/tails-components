@@ -1,0 +1,24 @@
+public class question{
+public static void swap(int[] arr,int i,int j) {
+    	int temp=arr[i];
+		arr[i]=arr[j];
+		arr[j]=temp;
+    }
+public static void selectionSort(int[] arr) {
+    	for(int itr=0;itr<arr.length-1;itr++) {
+    		int min=itr;
+    		for(int j=itr+1;j<arr.length;j++) {
+    			if(arr[j]<arr[min]) {
+    				min=j;
+    			}
+    		}
+    		//min mil gya
+    		swap(arr,itr,min);
+    	}
+    }
+    public static void main(String[] args){
+    int[] arr={10,60,70,90};
+    selectionSort(arr);
+    //display(arr);
+    }
+    }
