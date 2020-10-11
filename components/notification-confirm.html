@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <title>Notification</title>
+  <!-- small css adjustments -->
+  <style>
+    body {
+      font-family: 'Work Sans', sans-serif;
+    }
+    .card {
+      border-radius: 3.3rem;
+      width: 25rem;
+      height: 8.8rem;
+    }
+    .avatar {
+      border-radius: 2.5rem;
+    }
+    .btn-position {
+      bottom: -3rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="flex flex-col justify-center items-center min-h-screen bg-gray-200 min-w-screen">
+    <div class="card bg-white p-3 shadow-sm">
+      <div class="flex items-center h-full">
+        <div class="w-2/4 h-full avatar overflow-hidden shadow-lg">
+          <img class="bg-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Person">
+        </div>
+        <div class="pl-5">
+          <div class="relative">
+            <div>
+              <h1 class="text-xl font-semibold tracking-wide mb-1 text-gray-800">Emma Jones</h1>
+              <p class="text-sm text-gray-500 tracking-normal">Do you want to participate in our awesome initiative?</p>
+            </div>
+            <div class="btn-position absolute inset-x-0 flex justify-start">
+              <button class="transition duration-300 font-medium text-sm bg-red-500 hover:bg-red-400 mr-2 px-4 py-2 w-24 rounded-full text-white shadow-md">Yes</button>
+              <button class="transition duration-300 font-medium text-sm bg-white hover:bg-gray-200 px-4 py-2 w-24 rounded-full shadow-md">Maybe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
