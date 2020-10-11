@@ -1,0 +1,47 @@
+<!-- This component require Tailwind CSS v1.8 -->
+<div class="w-screen h-screen bg-blue-800 flex justify-center content-center flex-wrap">
+  <div class="w-2/3 rounded-md p-3 bg-white text-gray-600 grid md:grid-cols-3">
+    <div class="col-span-1 place-self-center pr-3 hidden md:block">
+      <img src="https://images.unsplash.com/photo-1600498148248-d7235d2d9361?ixlib=rb-1.2.1&auto=format&fit=crop&w=1534&q=80" alt="Registration" title="Registration" class="rounded-l-lg" />
+    </div>
+    <div class="col-span-2 py-2 md:py-0 md:px-3">
+      <h1 class="text-3xl text-center">Create Account</h1>
+      <hr class="my-2" />
+      <form action="#" method="post">
+        <div class="grid gap-2 md:grid-cols-2">
+          <div class="pb-1">
+            <label for="first_name" class="block font-medium">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="block w-full p-1 rounded border border-gray-500 text-gray-500 focus:bg-gray-200" />
+          </div>
+          <div class="pb-1">
+            <label for="last_name" class="block font-medium">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="block w-full p-1 rounded border border-gray-500 text-gray-500 focus:bg-gray-200" />
+          </div>
+          <div class="pb-1">
+            <label for="email" class="block font-medium">Email</label>
+            <input type="email" name="email" id="email" class="block w-full p-1 rounded border border-gray-500 text-gray-500 focus:bg-gray-200" />
+          </div>
+          <div class="pb-1">
+            <label for="phone" class="block font-medium">Phone</label>
+            <input type="text" name="phone" id="phone" class="block w-full p-1 rounded border border-gray-500 text-gray-500 focus:bg-gray-200" />
+          </div>
+          <div class="pb-1">
+            <label for="password" class="block font-medium">Password</label>
+            <input type="password" name="password" id="password" class="block w-full p-1 rounded border border-gray-500 text-gray-500 focus:bg-gray-200" />
+          </div>
+          <div class="pb-1">
+            <label for="password_confirmation" class="block font-medium">Repeat Password</label>
+            <input type="password" name="password_confirmation" id="password_confirmation" class="block w-full p-1 rounded border border-gray-500 focus:bg-gray-200" />
+          </div>
+        </div>
+        <div class="pt-3 flex justify-center">
+          <button type="submit" class="bg-blue-500 text-white font-medium hover:bg-blue-400 rounded px-4 py-2">Register</button>
+        </div>
+        <hr class="my-2" />
+        <p class="text-sm text-center text-gray-500">
+          Already have an account? <a href="login.html" class="font-medium text-indigo-600 underline">Login</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
