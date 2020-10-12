@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>week9</title>
+<script src="js.js"></script>
+<style>
+#mainbar {
+    width: 100%;
+    background-color: #ededed;
+}
+#bar {
+    width: 1%;
+    height: 35px;
+    background-color: #fa3034;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.button{
+    border: none;
+    background-color: #fa3034;
+    color: white;
+    padding:9px;
+}
+    
+.button:hover{
+    background-color: #b80003;   
+    color:white;
+}
+
+input[type=text]{
+    padding: 7px; 
+    width: 5%;
+}
+</style>
+</head>
+<body>
+<div id="mainbar">
+  <div id="bar"></div>
+</div>
+<br>
+<input type="text" id="number">
+<input type="button" class="button" onclick="move();" value="SET"> 
+</body>
+</html>
