@@ -1,0 +1,8 @@
+<html>
+<head>
+<script language="javascript">
+<title>New <\title>
+</head>
+<body bgcolour=red>
+<\body>
+<\html>
