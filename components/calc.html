@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>week9</title>
+<script src="js.js"></script>
+<style>
+.grid-container {
+    width: 60%;
+    display: grid;
+    grid-template-columns: auto auto auto auto 20%;
+    grid-gap: 3px;
+    background-color: #7f7f7f;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.item1 {
+    grid-column: 1 / 5;
+}
+
+input[type=text]{
+    width: 100%;
+    border: none;
+    text-align: right;
+    font-size: 215%;
+}
+    
+.b{
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 17px;
+}
+</style>
+</head>
+<body>
+<div class="grid-container">
+    <div class="item1">
+        <input type="text" readonly="readonly" placeholder="0" id="input">
+        <input type="text" readonly="readonly" style="color: red;" id="answer">
+    </div> 
+    <div class="item2">
+        <button class="b" onclick="clearScreen();">C</button>
+    </div>
+    <div class="item3">
+        <button class="b" onclick="getOperand('*');">*</button>
+    </div>  
+    <div class="item4">
+        <button class="b" onclick="getOperand('/');">/</button>
+    </div>
+    <div class="item5">
+        <button class="b" onclick="getOperand('-');">-</button>
+    </div>
+    <div class="item6">
+        <button class="b" onclick="getOperand('+');">+</button>
+    </div>
+    <div class="item7">
+        <button class="b"onclick="compute();">=</button>
+    </div>
+    <div class="item8">
+        <button class="b" onclick="getNumber(6);">6</button>
+    </div>  
+    <div class="item9">
+        <button class="b" onclick="getNumber(7);">7</button>
+    </div>
+    <div class="item10">
+        <button class="b" onclick="getNumber(8);">8</button>
+    </div>
+    <div class="item11">
+        <button class="b" onclick="getNumber(9);">9</button>
+    </div>
+    <div class="item12">
+        <button class="b" onclick="getNumber(0);">0</button>
+    </div>
+    <div class="item13">
+        <button class="b" onclick="getNumber(1);">1</button>
+    </div>
+    <div class="item14">
+        <button class="b" onclick="getNumber(2);">2</button>
+    </div>
+    <div class="item15">
+        <button class="b" onclick="getNumber(3);">3</button>
+    </div>
+    <div class="item16">
+        <button class="b" onclick="getNumber(4);">4</button>
+    </div>
+    <div class="item17">
+        <button class="b" onclick="getNumber(5);">5</button>
+    </div>
+</div>
+
+</body>
+</html>
