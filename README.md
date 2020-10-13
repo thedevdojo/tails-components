@@ -9,6 +9,7 @@
 - [TailwindCSS Components](https://devdojo.com/tailwindcss/components)
 - [TailwindCSS Playground](https://devdojo.com/tailwindcss/playground)
 - [TailwindCSS Templates](https://devdojo.com/tailwindcss/templates)
+- [TailwindCSS Blocks](https://mertjf.github.io/tailblocks/)
 
 ## ⚡ Usage
 
