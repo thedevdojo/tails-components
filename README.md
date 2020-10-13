@@ -6,7 +6,7 @@
 
 ## ℹ️ Note
 
-Starting the 13th October. Tails will be restricting contributions for a week, to handle the backlog off pull requests added.
+Starting the 13th October. Tails will be restricting contributions for a week, to handle the backlog off pull requests.
 
 ## 🔗 Links
 
