@@ -2,11 +2,7 @@
 
 ## 💡 Introduction
 
-[Tails](https://devdojo.com/tails) is a (no-config) copy'n paste library of hand-crafted templates and components built in [TailwindCSS](https://tailwindcss.com). 
-
-## ℹ️ Note
-
-Starting the 13th October. Tails will be restricting contributions for a week, to handle the backlog off pull requests.
+[Tails](https://devdojo.com/tails) is a (no-config) copy'n paste library of hand-crafted templates and components built in [TailwindCSS](https://tailwindcss.com).
 
 ## 🔗 Links
 
@@ -25,5 +21,3 @@ It's pretty simple to use any of these components or templates in your project. 
 <a href="https://devdojo.com/episode/hacktoberfest-2020" target="_blank"><img src="https://cdn.devdojo.com/tails/images/hacktoberfest-png.png" width="640"></a>
 
 If you are contributing, please read the [contributing file](CONTRIBUTING.md) before submitting your pull requests.
-
-
