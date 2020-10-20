@@ -1,0 +1,73 @@
+
+<section x-data="{ color: 'red' }" class="relative py-16 min-h-screen bg-white min-w-screen animation-fade animation-delay bg-gray-200 rounded-lg">
+    <div class="container px-10 mx-auto sm:px-5">
+        <label for="mobile" class="block text-sm font-medium leading-5 text-gray-700">Main Color</label>
+        <div class="flex mt-3">
+            <div class="p-2 mr-3 bg-red-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'red' }" @click="color = 'red'" class="w-8 text-white fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-orange-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'orange' }" @click="color = 'orange'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-yellow-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'yellow' }" @click="color = 'yellow'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-green-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'green' }" @click="color = 'green'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-teal-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'teal' }" @click="color = 'teal'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-blue-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'blue' }" @click="color = 'blue'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-indigo-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'indigo' }" @click="color = 'indigo'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-purple-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'purple' }" @click="color = 'purple'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-2 mr-3 bg-pink-500 rounded-full cursor-pointer">
+                <svg :class="{ 'opacity-0': color != 'pink' }" @click="color = 'pink'" class="w-8 text-white opacity-0 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" datatype="glyph" dataname="check-bold">
+                    <g class="nc-icon-wrapper" fill="currentColor">
+                        <polygon fill="currentColor" points="2,11 4,9 9,12 20,4 22,6 9,19 "></polygon>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <input type="hidden" name="color" :value="color" />
+    </div>
+    
+</section>
