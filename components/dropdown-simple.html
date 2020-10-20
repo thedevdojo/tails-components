@@ -1,24 +1,23 @@
 <div class="flex flex-row justify-center min-h-screen pt-4 min-w-screen">
     <div class="flex-none p-2">
-        <button class="flex flex-row justify-between shadow w-48 border-gray-100 focus:outline-none hover:shadow-md focus:border-white  px-2 py-2 text-gray-800">
+        <button onclick="showDropdownOptions()" class="flex flex-row justify-between shadow w-48 border-gray-100 focus:outline-none focus:border-white  px-2 py-2 text-gray-800">
             <span class="align-middle inline-block">Select an item</span>
             <span class="align-middle inline-block">
-                <svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
-                </span>
-        </button>
-    </div>
-    <div class="flex-none p-2">
-        <button class="flex flex-row justify-between shadow w-48 border-gray-100 focus:outline-none focus:border-white  px-2 py-2 text-gray-800">
-            <span class="align-middle inline-block">Select an item</span>
-            <span class="align-middle inline-block">
-                <!--<svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>-->
-                <svg class="stroke-current" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M10.707 7.05L10 6.343 4.343 12l1.414 1.414L10 9.172l4.243 4.242L15.657 12z"/></svg>
+                <svg id="arrow-down" class="stroke-current" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/></svg>
+                <svg id="arrow-up" class="hidden stroke-current" xmlns="http://www.w3.org/2000/svg" style="width:28px;height:28px" viewBox="0 0 24 24"><path d="M10.707 7.05L10 6.343 4.343 12l1.414 1.414L10 9.172l4.243 4.242L15.657 12z"/></svg>
             </span>
         </button>
-        <div class="mt-2 py-2 w-48 bg-white rounded-lg shadow-xl">
+        <div id="options" class="mt-2 py-2 w-48 bg-white rounded-lg shadow-xl hidden">
             <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">Item 1</a>
             <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">Item 2</a>
             <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-indigo-500 hover:text-white">Item 3</a>
         </div>
     </div>
 </div>
+<script>
+    function showDropdownOptions() {
+        document.getElementById("options").classList.toggle("hidden");
+        document.getElementById("arrow-up").classList.toggle("hidden");
+        document.getElementById("arrow-down").classList.toggle("hidden");
+    }
+</script>
