@@ -1,12 +1,7 @@
-<html>
-<head>
-<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body>
 <section class="h-full relative py-6 animation-fade animation-delay">
 	<div class="container mx-auto bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 ">
         <div class="md:flex md:h-full">
-            <aside class="relative h-full sm:h-full w-full p-10 rounded-none sm:rounded md:w-1/2 sm:w-auto bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)">
+            <aside class="relative w-full p-10 rounded-none sm:rounded md:w-1/2 sm:w-auto bg-cover bg-center" style="background-image: url(https://images.unsplash.com/photo-1584466990376-09422a2b033a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80)">
             	<div class="font-serif my-18 text-5xl text-white text-center">The Power</div>
             	<div class="text-gray-500 text-center">Intoducing The Power Of Tail</div>
             	<div class="sm:w-auto mx-32 mt-8 px-4 py-2 text-white text-center bg-blue-600 hover:bg-blue-500">learn More</div>
@@ -39,20 +34,20 @@
             	<h2 class="text-2xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-2xl sm:leading-9">Contact Us</h2>
                 <p class="mt-2 mb-5 text-sm text-gray-600">You can find our contact info below or you can feel free to leave us a quick message in the form.</p>
                 <form class="relative flex-initial w-full" onsubmit="return false">
-                    <div class="flex pb-3">
-                        <input class="m-1 w-full px-5 py-3 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Name" name="email" value="" />
-                        <input class="m-1 w-full px-5 py-3 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Company" name="subject" value="" />
+                    <div class="flex pb-1">
+                        <input class="m-2 w-full px-4 py-2 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Name" name="email" value="" />
+                        <input class="m-2 w-full px-4 py-2 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Company" name="subject" value="" />
                     </div>
-                    <div class="flex pb-3">
-                        <input class="m-1 w-full px-5 py-3 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Email Address" name="email" value="" />
-                        <input class="m-1 w-full px-5 py-3 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Subject" name="subject" value="" />
+                    <div class="flex pb-1">
+                        <input class="m-2 w-full px-4 py-2 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Email Address" name="email" value="" />
+                        <input class="m-2 w-full px-4 py-2 border border-gray-400 outline-none focus:shadow-outline" type="text" placeholder="Subject" name="subject" value="" />
                     </div>
-                    <div class="py-3">
-                        <textarea row="4" class="w-full h-32 px-5 py-3 border border-gray-400 outline-none focus:shadow-outline" name="message" placeholder="Your message here..."></textarea>
+                    <div class="m-2 py-3">
+                        <textarea row="4" class="w-full h-32 px-4 py-2 border border-gray-400 outline-none focus:shadow-outline" name="message" placeholder="Your message here..."></textarea>
                     </div>
-                    <div class="flex flex-row-reverse pt-3">
-                        <button class="flex px-6 py-3 text-white bg-pink-600 hover:bg-pink-500 hover:text-white focus:outline-none focus:shadow-outline focus:border-indigo-300" type="submit">
-                            <span class="self-center text-base font-medium">Submit Message</span>
+                    <div class="flex flex-row-reverse pb-3">
+                        <button class="flex px-4 py-2 text-white bg-pink-600 hover:bg-pink-500 hover:text-white focus:outline-none focus:shadow-outline focus:border-indigo-300" type="submit">
+                            <span class="self-center text-sm font-medium">Submit Message</span>
                             <svg class="self-center h-5 ml-3 fill-current" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 24 24" xml:space="preserve" class="brz-icon-svg brz-css-mexoi brz-css-rstqv" data-type="glyph" data-name="email-83">
                                 <g fill="currentColor">
                                     <path data-color="color-2" fill="currentColor" d="M23,2H1C0.4,2,0,2.4,0,3v3c0,0.4,0.2,0.7,0.5,0.9l11,6C11.7,13,11.8,13,12,13s0.3,0,0.5-0.1 l11-6C23.8,6.7,24,6.4,24,6V3C24,2.4,23.6,2,23,2z"></path>
@@ -61,7 +56,7 @@
                             </svg>
                         </button>
                     </div>
-                    <div class="absolute w-full flex justify-center py-4 inset-x-0.bottom-0">
+                    <div class="absolute w-full flex justify-center mb-4 inset-x-0.bottom-0">
                             <a href="#" class="text-gray-400 hover:text-gray-500">
                                 <span class="sr-only">Facebook</span>
                                 <svg class="self-center w-8 h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -103,5 +98,3 @@
     </div>
 	</div>
 </section>
-</body>
-</html>
