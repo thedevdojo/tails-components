@@ -75,6 +75,37 @@ Issue template types include the following:
  - Feature Requests
  - Help Requests
 
+## Style Guide 🎨
+
+### Components 🔧
+
+For components you don't need to add `<html>`, `<head>` or `<body>` elements. We provide that on the back-end.
+
+### Templates
+
+For templates we do not provide any wrapping code like we do for components. As our components though, we do expect them to contain TailwindCSS like our components. Here's a little snippet taken from our current templates.
+
+#### TailwindCSS Link Snippet
+
+```html
+<!--
+    For more customization options, we would advise
+    you to build your TailwindCSS from the source.
+    https://tailwindcss.com/docs/installation
+-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.9.2/tailwind.min.css">
+```
+
+### TailwindCSS
+
+All our components and templates rely on TailwindCSS. Components work of our provided TailwindCSS version. Templates have a hard-coded version included in each template, as shown in [the above snippet](#tailwindcss-link-snippet).
+
+### Editorconfig
+
+Tails has an [`.editorconfig`](./.editorconfig) to ease the building of both components and templates.
+
+For indenting we prefer `space` over `tab`,  4 spaces for `.html` and 2 for other files.
+
 ## Naming Conventions 📋
 
 ### Components 🔧
