@@ -17,27 +17,27 @@ Want to watch a video instead? Click the link below to watch a quick **5 min.** 
 
 **Fork This Repo** 🍴
 
-![Fork Repo GIF](http://cdn.devdojo.com/tails/images/2-fork-repo-min.gif)
+![Fork Repo GIF](https://cdn.devdojo.com/tails/images/2-fork-repo-min.gif)
 
 **Download your Forked Repo** 🔻
 
-![Clone Repo GIF](http://cdn.devdojo.com/tails/images/3-clone-min.gif)
+![Clone Repo GIF](https://cdn.devdojo.com/tails/images/3-clone-min.gif)
 
 **Add your Component** ➕
 
-![New Component GIF](http://cdn.devdojo.com/tails/images/4-new-component-min.gif)
+![New Component GIF](https://cdn.devdojo.com/tails/images/4-new-component-min.gif)
 
 **Push your Changes** 👊
 
-![Push GIF](http://cdn.devdojo.com/tails/images/5-push.gif)
+![Push GIF](https://cdn.devdojo.com/tails/images/5-push.gif)
 
 **Create your Pull Request**  🤏
 
-![Create PR GIF](http://cdn.devdojo.com/tails/images/6-open-pr-min.gif)
+![Create PR GIF](https://cdn.devdojo.com/tails/images/6-open-pr-min.gif)
 
 and then,
 
-![Push GIF](http://cdn.devdojo.com/tails/images/boom.gif)
+![Push GIF](https://cdn.devdojo.com/tails/images/boom.gif)
 
 Congratulations,🎉 you just submitted your PR 🤙
 
@@ -79,7 +79,7 @@ Issue template types include the following:
 
 ### Components 🔧
 
-When naming your component file, it's best to stick which a descriptive name. Such as for a component with featured content containing a large image, we named the file `feature-content-image.html`.
+When naming your component file, it's best to stick with a descriptive name. Such as for a component with featured content containing a large image, we named the file `feature-content-image.html`.
 
 ### Templates
 
