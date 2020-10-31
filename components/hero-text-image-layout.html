@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Text and image layout</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.jumbotron{
+padding:2%;
+margin: 8% 3% 8% 1%;
+border-radius: 5px;
+}
+.event2{background-image: -webkit-linear-gradient(#DDD6F3, #FAACA8 );}
+#event2{
+padding-top:5%;
+}
+.eventdata{
+font-family:Arial,sans-serif;
+line-height: 1.5em;
+text-align:left;
+}
+.btn{
+  margin-top:30px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+  <div class="jumbotron event2">
+   <div class="container">
+       <div class="row">
+
+         <div class="col-md-6  col-xs-10 col-xs-push-.1">
+             <img id="event2" src="https://hacktoberfest.digitalocean.com/assets/og-hf20-cf92d1a3bfc78883ea79dbac1518f1a4f1585e23eb69337ea730447cb70fa777.png" alt="30days" width="100%" height="100%">
+         </div>
+           <div class="col-md-5 col-md-push-1 col-xs-12">
+               <p class="eventdata" style="font-size:37px; text-align:center; font-weight:bold;">HACKTOBERFEST 2020</p>
+           <p class="eventdata" style="font-size:25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+             tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+               <a class="btn btn-lg btn-primary" href="https://hacktoberfest.digitalocean.com/" target="_blank">Know more</a>
+           </div>
+
+       </div>
+     </div>
+  </div>
+</body>
+</html>
