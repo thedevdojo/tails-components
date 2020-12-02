@@ -4,6 +4,10 @@
 
 [Tails](https://devdojo.com/tails) is a (no-config) copy'n paste library of hand-crafted templates and components built in [TailwindCSS](https://tailwindcss.com).
 
+## ⚠️ Future of Tails
+
+After some in-house talks, we have decided that for the future. [Tails](https://devdojo.com/tails) will become a page builder. Thus we will be closing all PRs and any updates to existing components and templates. The components and templates currently available in Tails will continue to exist for the foreseeable future. We hope you stick around for the exciting new chapter of Tails.
+
 ## 🔗 Links
 
 - [TailwindCSS Components](https://devdojo.com/tailwindcss/components)
