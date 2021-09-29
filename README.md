@@ -2,7 +2,7 @@
 
 ## 💡 Introduction
 
-[Tails](https://devdojo.com/tails) is the ultimate drag'n drop page creator built for TailwindCSS. Tails comes with over 190+ hand-crafted premium components to help you look pretty for your customers.
+[Tails](https://devdojo.com/tailwindcss/components) is the ultimate drag'n drop page creator built for TailwindCSS. Tails comes with over 190+ hand-crafted premium components to help you look pretty for your customers.
 
 ## 💜 Tails Open Source Components
 
