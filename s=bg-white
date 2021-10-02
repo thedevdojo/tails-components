@@ -1,0 +1,577 @@
+[33mcommit 3a810f3e044d09ea85d8eadd40f9c7f80be4875c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Karan Bajaj <karanbajaj@gmail.com>
+Date:   Fri Oct 1 22:59:59 2021 -0700
+
+    Adding new product list component
+
+[33mcommit 443d0619d53050101ddf348a0fb33b24039f7b7b[m
+Merge: afefa46 b4d99d3
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Fri Oct 1 12:47:35 2021 +0200
+
+    Merge pull request #294 from JaswanthReddyPadala/master
+    
+    Add table-progress.html component
+
+[33mcommit b4d99d3516c16507c8810ad1bc6ad7cdc1f3e581[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Fri Oct 1 12:46:03 2021 +0200
+
+    Update components/progress-table.html
+
+[33mcommit 1a2cafebce4a9d30d445a016fc6546ea517068df[m
+Author: JaswanthReddyPadala <jaswanthreddypadala@gmail.com>
+Date:   Fri Oct 1 16:10:25 2021 +0530
+
+    update code format
+
+[33mcommit fdd66873666cd8130b625b38d53947f43b1a9373[m
+Author: JaswanthReddyPadala <jaswanthreddypadala@gmail.com>
+Date:   Fri Oct 1 15:32:02 2021 +0530
+
+    fix image links
+
+[33mcommit c9a872b4048092a9016c479d22616f4ab8478d16[m
+Author: JaswanthReddyPadala <jaswanthreddypadala@gmail.com>
+Date:   Fri Oct 1 09:38:32 2021 +0530
+
+    add table-progress in components
+
+[33mcommit afefa468e524d8d6c3e21e68136f9bc5830fc259[m
+Author: Bobby Iliev <bobby@bobbyiliev.com>
+Date:   Wed Sep 29 13:48:09 2021 +0300
+
+    Update README.md
+
+[33mcommit 1310c04eb0db2b30d65e947ea54937644cba42b1[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Sep 29 11:07:57 2021 +0200
+
+    Update project URL.
+
+[33mcommit f5746156c6cd1898ca906e226373d4f490cbce74[m
+Author: Bobby Iliev <bobby@bobbyiliev.com>
+Date:   Wed Sep 29 12:00:35 2021 +0300
+
+    Hacktoberfest 2021 preparation (#292)
+
+[33mcommit 28cfc413235ff6d1046041cf1e63c2fdc77d0e0d[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Dec 2 07:09:22 2020 +0100
+
+    Update README.md
+    
+    Add notice about upcoming changes to Tails.
+
+[33mcommit 6196d52a6fdca29d2094c8e0efc6ea697e0c0b6b[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Fri Nov 6 12:36:20 2020 +0100
+
+    Fix card-course.html
+    
+    Fix resume button not being green
+
+[33mcommit 84a7b8438fd2048023c75e80f6dd2e70b6c3f1c5[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Fri Nov 6 12:33:09 2020 +0100
+
+    Create card-course.html
+
+[33mcommit 45bb4f9f8d0aa17940ed44181f36732dcab5240c[m
+Author: Stephy <6765732+blindingstars@users.noreply.github.com>
+Date:   Mon Nov 2 05:19:51 2020 -0600
+
+    Add featured event card (#285)
+
+[33mcommit 1e3b6717b5ba12f70dd8304bcfff9c947a54b6b6[m
+Merge: 6c9a22f c95f4cc
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Sat Oct 31 22:08:35 2020 +0100
+
+    Merge pull request #257 from blindingstars/master
+    
+    Fix button corners on GitHub Buttons
+
+[33mcommit 6c9a22f8236e62af7550e2441e6545cc19306ef5[m
+Author: Aman Goyal <45818629+amngoyal@users.noreply.github.com>
+Date:   Fri Oct 30 15:52:15 2020 +0530
+
+    added signup-page.html (#256)
+    
+    * added signup-page.html
+    
+    * removed html and head tag
+    
+    * Update signup-page.html
+    
+    Co-authored-by: Bobby Iliev <bobby@bobbyiliev.com>
+
+[33mcommit e3044684fa79009b21f94221fa923c1466177718[m
+Author: Ronan D'Souza <ronan696@gmail.com>
+Date:   Fri Oct 30 15:36:22 2020 +0530
+
+    Add modal rating component (#250)
+    
+    * Add modal rating component
+    
+    * Update modal-rating.html
+    
+    Co-authored-by: Bobby Iliev <bobby@bobbyiliev.com>
+
+[33mcommit cd2ba2c7f2bfda4215dadeea57056879fea89a63[m
+Author: Gaurav Suthar <43517315+suthargk@users.noreply.github.com>
+Date:   Fri Oct 30 15:33:20 2020 +0530
+
+    add connect people suggestion list (#236)
+    
+    * add connect people suggestion list
+    
+    * Update connect-people.html
+    
+    Co-authored-by: Bobby Iliev <bobby@bobbyiliev.com>
+
+[33mcommit 06399fea92ed20fdf6b54f143b4987ddbd80a2ef[m
+Author: Siddhesh M <31335947+SId02@users.noreply.github.com>
+Date:   Fri Oct 30 15:24:48 2020 +0530
+
+    cookie-policy.html and page-not found.html (#264)
+    
+    * Created cookie-policy.html
+    
+    cookie-policy component
+    
+    * created page-not-found-404.html
+    
+    page-not-found component
+    
+    * Update cookie-policy.html
+    
+    * Update page-not-found-404.html
+    
+    Co-authored-by: Bobby Iliev <bobby@bobbyiliev.com>
+
+[33mcommit 06f487a629bc903ec987b7e82a2020ef9b386dbd[m
+Author: Pritish Nagpal <55753902+PritishNagpal@users.noreply.github.com>
+Date:   Fri Oct 30 15:08:03 2020 +0530
+
+    Weather Card Added (#249)
+
+[33mcommit af632c2f7ada6c9148c374c349059a037230fc84[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Fri Oct 30 10:22:50 2020 +0100
+
+    Add style guide section to CONTRIBUTING.md (#259)
+    
+    * Update CONTRIBUTING.md
+    Fix image links
+    Fix typo
+    
+    * Update CONTRIBUTING.md
+    Add style guide section
+
+[33mcommit ef5b6495452a8de56c6f82d243fa83f6297a9ca1[m
+Merge: 933ce81 5708868
+Author: Bobby Iliev <bobby@bobbyiliev.com>
+Date:   Fri Oct 30 11:16:20 2020 +0200
+
+    Merge pull request #270 from ArielMejiaDev/form-checkout
+    
+    Adding checkout form
+
+[33mcommit 933ce81606e896da041800682ee0ffdb4ee6afa7[m
+Merge: e2bcf39 f01f9b7
+Author: Bobby Iliev <bobby@bobbyiliev.com>
+Date:   Fri Oct 30 11:14:33 2020 +0200
+
+    Merge pull request #271 from ArielMejiaDev/hero-event
+    
+    Adding a new Hero for events
+
+[33mcommit f01f9b73765d9764174bf06a9502ae9a8dff2af5[m
+Author: ArielMejiaDev <arielmejiadev@gmail.com>
+Date:   Wed Oct 28 22:47:13 2020 -0600
+
+    Adding a new Hero for events
+
+[33mcommit 57088688b414aeaf9efaa26e6bd7405d2c5ee081[m
+Author: ArielMejiaDev <arielmejiadev@gmail.com>
+Date:   Wed Oct 28 21:34:04 2020 -0600
+
+    Adding checkout form
+
+[33mcommit e2bcf39406f21d9c5355dfc373642d7de0382e04[m
+Merge: efd970f a89d117
+Author: Bobby Iliev <bobby@bobbyiliev.com>
+Date:   Mon Oct 26 11:25:59 2020 +0200
+
+    Merge pull request #214 from Alabs02/master
+    
+    Added a media card component and Bottom Navigation component
+
+[33mcommit a89d1172cf5845b07bb7a36338015f7bea2538bc[m
+Author: Snapster02 <alabson.inc@gmail.com>
+Date:   Mon Oct 26 01:03:08 2020 +0100
+
+    Added a bottom navigation component
+
+[33mcommit ab9ab93c839ea6cf61a005000f02915feda71a2e[m
+Author: Snapster02 <alabson.inc@gmail.com>
+Date:   Sat Oct 24 10:33:07 2020 +0100
+
+    Fixed images
+
+[33mcommit c95f4cce6ec8d1d2cd264714dcc73bc5b47faa82[m
+Author: Stephy Miehle <stephy@northxsouth.co>
+Date:   Sat Oct 24 00:15:13 2020 -0500
+
+    Fix button corners
+
+[33mcommit efd970f6b800b267b4242e07d876c0d981d5fa93[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Oct 21 18:14:38 2020 +0200
+
+    Update alert-customer-chat.html
+
+[33mcommit c3c25c91b272b08bd1056fa6eb12ad65d1a62b11[m
+Merge: 5c3b353 89a8736
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Oct 21 18:13:55 2020 +0200
+
+    Merge pull request #246 from ghazimuharam/article-list-component
+    
+    Floating message notification
+
+[33mcommit 89a8736dbac57290fd6797fdacad1bb799e00016[m
+Author: Muhammad Ghazi Muharam <ghazimuharam22@gmail.com>
+Date:   Wed Oct 21 23:00:38 2020 +0700
+
+    Rename chat-alert.html to alert-customer-chat.html
+
+[33mcommit 5c3b3538e6c0e920bbc13b36ea697a49c636e433[m
+Merge: 104c3c4 28ccd0b
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Oct 21 15:33:26 2020 +0200
+
+    Merge pull request #247 from Kazimustakim12/master
+    
+    Add alert chat component
+
+[33mcommit 28ccd0be12fd1375cef3fdd0d553e4fd08f4900f[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Oct 21 15:32:41 2020 +0200
+
+    Update and rename chat-box.html to alert-chat.html
+
+[33mcommit 104c3c43e0d745bd54f4c6cc09bc2a63eb1c2d3a[m
+Merge: eca403b 433fdf2
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Oct 21 15:09:56 2020 +0200
+
+    Merge pull request #239 from ArielMejiaDev/master
+    
+    Add FAQ accordion component
+
+[33mcommit 433fdf248fa499f62712264328958674265e714c[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Wed Oct 21 15:08:05 2020 +0200
+
+    Update faq-accordion.html
+    
+    Change demo text to existing demo texts
+    Fix selecting answers closing accordion
+    Add diff bg to opened accordion
+    Remove unnecessary id
+    Add diff bg to answers
+    Fix title heading
+
+[33mcommit 7130a77caf5945d3bdf0671c52b13b24d49a231a[m
+Author: Snapster02 <alabson.inc@gmail.com>
+Date:   Wed Oct 21 12:08:35 2020 +0100
+
+    Optimzed media card
+
+[33mcommit 631b0843a92a4e54e9e27d787527b179e4384051[m
+Author: Ghazi Muharam <ghazimuharam22@gmail.com>
+Date:   Wed Oct 21 15:21:03 2020 +0700
+
+    adjust shadow
+
+[33mcommit c956a9a2ff8cc7598f34c1d20048fd39aa1df48d[m
+Merge: fdfbc89 16caf44
+Author: Ghazi Muharam <ghazimuharam22@gmail.com>
+Date:   Wed Oct 21 15:12:48 2020 +0700
+
+    Merge branch 'article-list-component' of https://github.com/ghazimuharam/tails into article-list-component
+
+[33mcommit fdfbc89632a91d6c9ad14e8fac67606268a9aaa4[m
+Author: Ghazi Muharam <ghazimuharam22@gmail.com>
+Date:   Wed Oct 21 15:12:29 2020 +0700
+
+    Add chat-alert components
+
+[33mcommit 70423f66c32b2c3501b185796f19914d265b589c[m
+Author: MMKAZI12 <kazimustakim39@gmail.com>
+Date:   Wed Oct 21 11:21:36 2020 +0530
+
+    Adding a chatbox one component
+
+[33mcommit 60df3dae385ca3d20d51dbbd0be5a1fd2e1e0457[m
+Author: Ariel <ariel@MacBook-Pro-de-Ariel.local>
+Date:   Tue Oct 20 17:09:58 2020 -0600
+
+    Adding new faq accordion component
+
+[33mcommit eca403b527d4d70b0550203032c024f9b4d12811[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 22:57:12 2020 +0200
+
+    Update flare.html
+    
+    Fix links
+
+[33mcommit 5d619f437b31069d17a5ba2eaff2ceb6bd5aa96a[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 22:30:47 2020 +0200
+
+    Update file-uploader.html
+    
+    Increase size of component
+    Add basic responsiveness
+    Add thicker heading
+
+[33mcommit f46be6834d2aa8c0c10e3cdaa42408f7a774ff73[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 22:09:49 2020 +0200
+
+    Fix parity between components. (#232)
+    
+    * Update components/alert-simple.html
+    
+    * Update components/button-github.html
+    
+    * Update components/comment-thread.html
+    
+    * Update components/content-browser.html
+    
+    * Update components/content-card.html
+    Add non-existing alt attribute content
+    
+    * Update components/content-course.html
+    
+    * Update components/faq-list-dropdown.html
+    
+    * Update components/card-contact.html
+    * Update components/form-registration-long.html
+    
+    * Update components/form-registration-full.html
+    
+    * Create .editorconfig
+    
+    * Update .editorconfig
+    
+    * Update .editorconfig
+    
+    * Batch formatting
+    
+    * Update components/content-infographic-steps.html
+    
+    * Update components/pricing-clean.html
+    
+    * Update components/pricing-select.html
+    
+    * Update components/testimonial-single.html
+    
+    * Update components/content-course.html
+    
+    * Update components/feature-content-image.html
+    
+    * Update components/feature-content-testimony.html
+    
+    * Update components/hero-minimal-meditate.html
+
+[33mcommit 98b678d5b4e0cbc79767251005b65b957accd2f6[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 21:34:36 2020 +0200
+
+    Update README.md
+    
+    Remove notice
+
+[33mcommit e2c2d00d0b08e8c922750fe09e5f8355292361ff[m
+Merge: 26d0c91 3c6e343
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 19:49:52 2020 +0200
+
+    Merge pull request #175 from archij30/master
+    
+    Add dropdown component
+
+[33mcommit 3c6e343aab348dd0ff615457bf839702c8d7428b[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 19:48:26 2020 +0200
+
+    Update dropdown-simple.html
+    
+    Change icons to Heroicons
+    Remove unused classes
+    Fix centering issues
+    Add focus state
+
+[33mcommit ebb0aecf6432e6071fadd31e29fb0c0ec7913c3f[m
+Author: archi.jain <archij30@gmail.com>
+Date:   Tue Oct 20 22:55:03 2020 +0530
+
+    Add functionality to show/hide dropdown options on click
+
+[33mcommit 26d0c91d3b244f3d050a30c38b69410e7baf4385[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 18:34:43 2020 +0200
+
+    Update and rename subscribe-modal.html to modal-subscribe.html
+    
+    Fix content having double padding
+    Update design a bit
+
+[33mcommit c4f34fc6453bcfe3e81552268d2ad91583571cc5[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Tue Oct 20 00:47:54 2020 +0200
+
+    Update flare.html
+    
+    Fix potential phishing attacks (sonarlint(Web:S5148))
+    Fix pricing middle having vertical borders on desktop
+    Add a comment about TailwindCSS
+    Update TailwindCSS 1.2.0 -> 1.9.2
+    Add missing alt attributes
+
+[33mcommit 4d23afaed3ec4a899f3f5739ebb8a1e5b7ff84d0[m
+Author: = <tnylea@gmail.com>
+Date:   Mon Oct 19 13:48:19 2020 -0700
+
+    Adding latest
+
+[33mcommit f77c4f56d40bd35079afe5738f6128c1682a712b[m
+Author: = <tnylea@gmail.com>
+Date:   Mon Oct 19 13:46:22 2020 -0700
+
+    Adding latest template
+
+[33mcommit fefb185554afdbca5e3d467d8a7a061721b306c9[m
+Author: = <tnylea@gmail.com>
+Date:   Mon Oct 19 13:37:04 2020 -0700
+
+    Adding new template
+
+[33mcommit a24375c11860e6c709253b2f3d4aac8a88a3cc77[m
+Merge: d5ce590 82063d5
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 11:42:12 2020 -0700
+
+    Merge pull request #174 from shades-7/master
+    
+    check this out
+
+[33mcommit 82063d56431ace6118606a4786aa2882da30451f[m
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 11:41:03 2020 -0700
+
+    Update portfolio.html
+    
+    Thanks for the PR, I've made a few modifications and merged it in ;)
+
+[33mcommit d5ce590c0acc3ce6c994751a9f209a85b591f9c6[m
+Merge: c245cae 2fcb20a
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 11:28:38 2020 -0700
+
+    Merge pull request #160 from RiyaM16/master
+    
+    Adding a new testimonial section having sticky notes look
+
+[33mcommit 2fcb20a0cdb5a7a5bd853a0ecc08a3d28cf795f0[m
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 11:28:09 2020 -0700
+
+    Update testimonial-sticky-notes.html
+    
+    Cleaned up a few styles ;)
+
+[33mcommit c245cae5ab95eb329c2cd70e2ce56146397fc125[m
+Merge: 7d05841 462f434
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 11:06:17 2020 -0700
+
+    Merge pull request #156 from PritishNagpal/master
+    
+    Profile card Component
+
+[33mcommit 462f434077ac578425a0ecf41b4097e7b1280205[m
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 11:06:01 2020 -0700
+
+    Update profile-card.html
+    
+    Made a few style clean-ups :)
+    
+    Thanks for the PR
+
+[33mcommit 7d05841f2508d668ee252e89cc0711ad4f0f930a[m
+Merge: 8f5622f aa369d6
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 10:52:06 2020 -0700
+
+    Merge pull request #181 from suthargk/pricing-with-form
+    
+    Add pricing with form
+
+[33mcommit aa369d69ce970799f857ccc38d845b838e3d056e[m
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 10:51:32 2020 -0700
+
+    Update pricing-with-form.html
+    
+    Cleaned up the background a little bit.
+
+[33mcommit 8f5622f6e29fa169772d5c503e5fbac414118e9a[m
+Merge: bfea7bb 16caf44
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 10:48:16 2020 -0700
+
+    Merge pull request #186 from ghazimuharam/article-list-component
+    
+    Article list component
+
+[33mcommit 16caf4405dc09bf772d5c25720e271d17c48c02b[m
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 10:47:21 2020 -0700
+
+    Rename article-list.html to card-boxes.html
+
+[33mcommit cb2c91922c3866d88ab873a2993760a38958f352[m
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 10:40:24 2020 -0700
+
+    Update article-list.html
+    
+    Looks good, cleaned up a few styles ;)
+
+[33mcommit bfea7bb4797c6b0ad6e3b48903296fc4fc65c755[m
+Merge: 923c385 609a32f
+Author: Tony Lea <tnylea@gmail.com>
+Date:   Mon Oct 19 10:16:45 2020 -0700
+
+    Merge pull request #196 from mendoc/master
+    
+    Add subscribe-modal component
+
+[33mcommit 923c3859bc72f0c5984455ffd7eeba3af03f5af8[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Mon Oct 19 17:51:54 2020 +0200
+
+    Update and rename contact-form.html to form-contact-simple.html
+
+[33mcommit 14d1ec94fc1713511802a5f8821f105bcc5e65fb[m
+Author: Kim Hallberg <hallberg.kim@gmail.com>
+Date:   Mon Oct 19 17:51:02 2020 +0200
+
+    Rename form-contact-simple.html to form-contact-full.html
