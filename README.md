@@ -1,11 +1,16 @@
 <p align="center"><img src="https://cdn.devdojo.com/assets/img/tails.svg" height="80" width="auto"></p>
 
-## 💡 Introduction
+## 💜 Tails - Open Source Components
 
-[Tails](https://devdojo.com/tails) is a (no-config) copy'n paste library of hand-crafted templates and components built in [TailwindCSS](https://tailwindcss.com).
+The Tails Open Source Components are a (no-config) copy'n paste free collection of hand-crafted templates and components built in [TailwindCSS](https://tailwindcss.com).
+
+## 💻 Tails - TailwindCSS Page Creator
+
+[Tails](https://devdojo.com/tailwindcss/components) is the ultimate drag'n drop page creator built for TailwindCSS. Tails comes with over 190+ hand-crafted premium components to help you look pretty for your customers.
 
 ## 🔗 Links
 
+- [TailwindCSS Drag'n Drop page creator](https://devdojo.com/tails)
 - [TailwindCSS Components](https://devdojo.com/tailwindcss/components)
 - [TailwindCSS Playground](https://devdojo.com/tailwindcss/playground)
 - [TailwindCSS Templates](https://devdojo.com/tailwindcss/templates)
