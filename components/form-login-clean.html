@@ -1,0 +1,24 @@
+<section class="flex justify-center items-center flex-col h-screen w-5/6 mx-auto">
+    <h1 class="text-3xl font-semibold">Sign In</h1>
+    <form action="#" class="flex justify-center flex-col mt-5">
+        <a href="#" class="bg-blue-600 text-white text-center px-3 py-2 rounded-md mt-5 w-full">Sign In using <span class="font-semibold">Open ID Connect</span></a>
+        <div class="mt-6 relative">
+            <div class="absolute inset-0 flex items-center" aria-hidden="true">
+                <div class="w-full border-t border-gray-300"></div>
+            </div>
+            <div class="relative flex justify-center text-sm">
+                <span class="px-2 bg-white text-gray-500"> or sign in with your email </span>
+            </div>
+        </div>
+        <div class="mt-5">
+            <label for="email" class="w-full">Email Address</label>
+            <input type="email" id="email" value="welcome@hactoberfest.com" class="w-full border-2 border-red-300 bg-red-100 rounded-md py-2 px-3 mt-1 shadow-sm" name="email" placeholder="Enter your email" autocomplete="off" />
+            <span class="text-sm w-full text-red-500">Please enter valid email address</span>
+        </div>
+        <div class="mt-5">
+            <label for="password" class="w-full flex justify-between"><span>Password</span> <span><a href="#" class="text-blue-500">Forgot password?</a></span></label>
+            <input type="password" id="password" class="w-full border rounded-md py-2 px-3 mt-1 shadow-sm" name="password" placeholder="Enter your password" />
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-3 py-2 rounded-md mt-5 w-full">Sign In</button>
+    </form>
+</section>
