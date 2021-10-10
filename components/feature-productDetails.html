@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial;
+            background-color: #666666;
+        }
+
+        .topnav {
+            background-color: #e6e6e6;
+            overflow: hidden;
+        }
+
+            .topnav a {
+                float: left;
+                color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+                .topnav a:hover {
+                    background-color: #cccccc;
+                    color: black;
+                }
+
+                .topnav a.active {
+                    background-color: #666666;
+                    color: white;
+                }
+
+        .boxclass {
+            height: 77%;
+            background-color: #ffffff;
+            margin: 30px;
+        }
+
+        #myImg {
+            float: right;
+            width: 25%;
+            margin: 10px;
+        }
+
+        .productTittle {
+            text-align: center;
+            color: #666666;
+            padding: 2%;
+            font-size: 150%;
+        }
+
+        h1 {
+            padding: 2%;
+            color: #666666;
+            display: inline-block;
+        }
+
+        p {
+            font-size: 150%;
+            color: #666666;
+            width: 10%;
+            display: inline-block;
+            padding: 5%;
+        }
+
+        .dot {
+            height: 25px;
+            width: 25px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 5px;
+            margin-left: 5px;
+            opacity: 65%
+        }
+
+        .container {
+            text-align: center;
+            display: inline-block;
+            margin: 100px;
+        }
+
+        .shopButton {
+            font-size: 160%;
+            font-family: Arial, Helvetica, sans-serif;
+            border: 3px solid #666666;
+            color: #666666;
+            padding: 1%;
+            background-color: #d9d9d9;
+        }
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a class="active" href="#news">Shop</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="boxclass">
+        <h2 class="productTittle"><b>S13 Demo Phone</b></h2>
+        <img id="myImg" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZLIqKKqTEj_EAfv10MjrHYeTNxoBA0Gsknw&usqp=CAU" alt="PhoneImage">
+        <h1>
+            Users' number one choice in terms of performance, looks and features.<br>
+            Display:17.0 cm(6.7″)<br>
+            Camera:12-megapixel
+        </h1>
+        <div>
+            <h1>
+                Price:
+                <p>$800</p>
+            </h1>
+            <h1>
+                Color:
+                <button class="dot" style="background-color: #00e6e6;"></button>
+                <button class="dot" style="background-color: #000000;"></button>
+                <button class="dot" style="background-color: #cc00cc;"></button>
+            </h1>
+            <h1>Manufacturer:<p>XYZLtd.</p></h1>
+        </div>
+        <div class="container">
+            <button class="shopButton">Shop Now</button>
+            <a href="#wishlist"><i style="font-size:30px;margin-left:50px;color:#d9d9d9" class="fa fa-heart"></i></a>
+            <a href="#home"><i class="fa fa-fw fa-home" style="font-size:30px;margin-left:50px;color:#d9d9d9"></i></a>
+        </div>
+
+    </div>
+</body>
+</html>
