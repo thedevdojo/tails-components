@@ -6,7 +6,7 @@ The Tails Open Source Components are a (no-config) copy'n paste free collection 
 
 ## 💻 Tails - TailwindCSS Page Creator
 
-[Tails](https://devdojo.com/tailwindcss/components) is the ultimate drag'n drop page creator built for TailwindCSS. Tails comes with over 190+ hand-crafted premium components to help you look pretty for your customers.
+[Tails is the ultimate drag'n drop page creator built for TailwindCSS](https://devdojo.com/tails). Tails comes with over 190+ hand-crafted premium components to help you look pretty for your customers.
 
 ## 🔗 Links
 
