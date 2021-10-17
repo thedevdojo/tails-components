@@ -1,0 +1,36 @@
+<div class="flex flex-row justify-center w-screen h-screen place-items-center">
+  <div class="h-48 duration-500 bg-white rounded-md group w-52 hover:h-80 hover:shadow-2xl tranform">
+    <div class="h-52">
+      <img class="object-cover cursor-pointer rounded-t-md" src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2FrZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="product-image" />
+      <div class="flex flex-row justify-between px-2 pt-2">
+        <div class="flex flex-col">
+          <span class="text-sm font-light text-black-800">&#9733; 4.3(5)</span>
+          <span class="text-lg font-bold cursor-pointer text-black-800">Cake</span>
+        </div>
+        <div class="flex flex-col items-center">
+          <span class="text-sm text-gray-600 line-through">&#36;299</span>
+          <span class="text-base font-normal text-blue-800">&#36;199</span>
+        </div>
+      </div>
+    </div>
+    <div class="flex-col hidden px-2 mt-1 duration-300 tranform group-hover:flex">
+      <span class="text-xs text-gray-600">Available colors:</span>
+      <div class="flex-row hidden mt-2 transition duration-300 group-hover:flex justify-evenly">
+        <div class="w-4 h-4 bg-red-700 rounded-full"></div>
+        <div class="w-4 h-4 bg-indigo-700 rounded-full"></div>
+        <div class="w-4 h-4 bg-yellow-500 rounded-full"></div>
+        <div class="w-4 h-4 bg-pink-400 rounded-full"></div>
+        <div class="w-4 h-4 bg-green-600 rounded-full"></div>
+        <div class="w-4 h-4 bg-purple-600 rounded-full"></div>
+      </div>
+      <div class="flex flex-row justify-between mt-7">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+      </div>
+    </div>
+  </div>
+</div>
