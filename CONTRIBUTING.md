@@ -65,7 +65,7 @@ All the TaildwindCSS Templates for the project are stored in `.html` files locat
 
 ## Issue Creation 🤨
 
-In the event that you have a issue using the tool or have a suggest for a change but don't want to contribute code,
+In the event that you have an issue using the tool or have a suggestion for a change but don't want to contribute code,
  we are more than happy to help.
 Make sure that when you create your issue, it follows the format for the type of issue you select
  (it has individual templates for each issue type).
